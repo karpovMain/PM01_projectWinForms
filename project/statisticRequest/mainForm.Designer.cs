@@ -36,8 +36,8 @@ namespace statisticRequest
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.addRequestButton = new System.Windows.Forms.Button();
@@ -548,22 +548,22 @@ namespace statisticRequest
             this.chartFaultStats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(142)))), ((int)(((byte)(255)))));
             this.chartFaultStats.BorderlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
             this.chartFaultStats.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
-            chartArea1.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            chartArea1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            chartArea1.Name = "ChartArea1";
-            chartArea1.ShadowColor = System.Drawing.Color.Transparent;
-            this.chartFaultStats.ChartAreas.Add(chartArea1);
+            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
+            chartArea2.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            chartArea2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            chartArea2.Name = "ChartArea1";
+            chartArea2.ShadowColor = System.Drawing.Color.Transparent;
+            this.chartFaultStats.ChartAreas.Add(chartArea2);
             this.chartFaultStats.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartFaultStats.Location = new System.Drawing.Point(0, 0);
             this.chartFaultStats.Name = "chartFaultStats";
             this.chartFaultStats.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series1.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
-            series1.LabelForeColor = System.Drawing.Color.White;
-            series1.Name = "Типы";
-            this.chartFaultStats.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
+            series2.LabelForeColor = System.Drawing.Color.White;
+            series2.Name = "Типы";
+            this.chartFaultStats.Series.Add(series2);
             this.chartFaultStats.Size = new System.Drawing.Size(831, 574);
             this.chartFaultStats.TabIndex = 0;
             // 
@@ -653,7 +653,7 @@ namespace statisticRequest
             this.specialistDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.specialistDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.specialistDGV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.specialistDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
+            this.specialistDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
             this.specialistDGV.Location = new System.Drawing.Point(0, 0);
             this.specialistDGV.MultiSelect = false;
             this.specialistDGV.Name = "specialistDGV";
@@ -799,7 +799,7 @@ namespace statisticRequest
             this.clientDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.clientDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.clientDGV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.clientDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
+            this.clientDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
             this.clientDGV.Location = new System.Drawing.Point(0, 0);
             this.clientDGV.MultiSelect = false;
             this.clientDGV.Name = "clientDGV";
@@ -946,7 +946,7 @@ namespace statisticRequest
             this.equipmentDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.equipmentDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.equipmentDGV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.equipmentDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
+            this.equipmentDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
             this.equipmentDGV.Location = new System.Drawing.Point(0, 0);
             this.equipmentDGV.MultiSelect = false;
             this.equipmentDGV.Name = "equipmentDGV";
@@ -1084,7 +1084,7 @@ namespace statisticRequest
             this.requestDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.requestDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.requestDGV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.requestDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
+            this.requestDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
             this.requestDGV.Location = new System.Drawing.Point(0, 0);
             this.requestDGV.MultiSelect = false;
             this.requestDGV.Name = "requestDGV";
@@ -1239,7 +1239,7 @@ namespace statisticRequest
             this.commentDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.commentDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.commentDGV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.commentDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
+            this.commentDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
             this.commentDGV.Location = new System.Drawing.Point(0, 0);
             this.commentDGV.MultiSelect = false;
             this.commentDGV.Name = "commentDGV";
@@ -1373,7 +1373,7 @@ namespace statisticRequest
             this.reportDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.reportDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.reportDGV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
+            this.reportDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(209)))));
             this.reportDGV.Location = new System.Drawing.Point(0, 0);
             this.reportDGV.MultiSelect = false;
             this.reportDGV.Name = "reportDGV";
@@ -1560,9 +1560,6 @@ namespace statisticRequest
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button addRequestButton;
-        private System.Windows.Forms.Button editRequestButton;
-        private System.Windows.Forms.Button deleteRequestButton;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.TabPage statisticTabPage;
         private System.Windows.Forms.Panel panel4;
@@ -1650,5 +1647,8 @@ namespace statisticRequest
         private System.Windows.Forms.Label completedCountLabel;
         private System.Windows.Forms.Panel kpiPanel;
         private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Button addRequestButton;
+        public System.Windows.Forms.Button editRequestButton;
+        public System.Windows.Forms.Button deleteRequestButton;
     }
 }
